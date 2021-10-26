@@ -1,11 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
 import Team from './components/Team';
+import Home from './components/Home';
+import About from './components/About';
+import Impact from './components/Impact';
+import Contact from './components/Contact';
 
 function App() {
   return (
     <div className="App">
+    <Home />
+    <About />
+    <Impact />
     <Team />
+    <Contact />
     </div>
   );
 }
