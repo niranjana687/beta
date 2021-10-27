@@ -1,16 +1,20 @@
 import React from "react";
+import '../styles/Nav.css';
 
 export default function Nav() {
     return (
-        <nav>
-        <h3> MEC MUNSoC</h3>
+        <nav className="nav">
+        <ul className="nav">
+        <li className="nav-home">MEC MUNSoC</li>
+        <li className="nav-item"></li>
         {/* Link to Team
         Link to Impact
         Link to Contact */}
-        <h4>About Us</h4>
-        <h4>Impact</h4>
-        <h4>Team</h4>
-        <h4>Contact</h4>
+        <li className="nav-item">About Us</li>
+        <li className="nav-item">Impact</li>
+        <li className="nav-item">Team</li>
+        <li className="nav-item">Contact</li>
+        </ul>
     </nav>
     );
 }

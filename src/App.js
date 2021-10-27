@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+// import logo from './logo.jpg';
 import './App.css';
 import Team from './components/Team';
 import Home from './components/Home';
@@ -9,6 +9,7 @@ import Contact from './components/Contact';
 function App() {
   return (
     <div className="App">
+    {/* <img src={logo} className="App-logo" alt="logo" /> */}
     <Home />
     <About />
     <Impact />
