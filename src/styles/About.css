@@ -1,3 +1,22 @@
-img {
-    width: 360px;
+.about-us {
+    text-align: justify;
+    padding-left:25px
+}
+
+.main-pic{
+    width: fit-content;
+}
+
+.logo {
+    float: left;
+    width: 248px;
+    height: 235px;
+    padding-right: 10px;
+    position:calc();
+}
+
+.main-pic-desc {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
 }

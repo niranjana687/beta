@@ -5,6 +5,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Impact from './components/Impact';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
     <Impact />
     <Team />
     <Contact />
+    <Footer />
+
     </div>
   );
 }

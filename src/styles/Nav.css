@@ -4,16 +4,17 @@
     margin-top: 0%;
     display: block;
     margin-bottom: 2px;
-    height: 0.5in;
+    height: 72px;
 }
 
 .nav-home {
     display: inline-flex;
     font-size: large;
+   padding-right: 5in;
 }
 
 .nav-item {
     list-style: none;
-    padding-left: 2em;
+    padding-left: 3.5em;
     display: inline-block;
 }

@@ -1,0 +1,22 @@
+.profile-image {
+    border-radius: 50%;
+    float: left;
+    padding: 10px;
+    width: 25%;
+} 
+
+
+
+.footer{
+    background-color: brown;
+    padding: 3px;
+    color: antiquewhite;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-logo {
+
+    max-width: 100px;
+    
+}
