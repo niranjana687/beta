@@ -37,16 +37,46 @@
 .footer{
     clear: both;
     position: relative;
-    height: 200px;
+    height: 300px;
     margin-top: -200px;
-  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.1);
-  background-color: #a52a2a;
-  bottom: 0;
-  
+    /* box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.1); */
+    background-color: #a52a2a;
+    bottom: 0;
+    color: antiquewhite;
+    display: block;
+    justify-content: center;
+    display: flex;
 }
 .footer-logo {
-    max-width: 100px;
+    width: 120px;
+    height: 120px;
+    margin-left: -30em;
+    padding-top: 30px;
+
     
+}
+
+
+.social-icons {
+    width: 26px;
+    height: 21.1px;
+    margin-top: 26px;
+    flex-grow: 0;
+    padding-left: 5px;
+  
+  
+}
+
+.social-icons-disc {
+    padding-top: 10px;
+}
+
+.social-icons-med {
+    padding-top: 10px;
+}
+.copyright {
+    text-align: center;
+    font-weight: lighter;
 }
 
 .about-us {

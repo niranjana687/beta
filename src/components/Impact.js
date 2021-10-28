@@ -1,9 +1,10 @@
-import React from "react";
+import React, {Component} from "react";
 import "../styles/style.css";
 
-export default function Impact() {
-    return (
-        <div>
+class Impact extends Component {
+    render() {
+        return (
+            <div>
          <h3>IMPACT</h3>
             <p className="impact-desc">In it's first year, MEC MUNSoC spear headed the Millennium Fellowship by the United Nations at MEC.
             
@@ -34,5 +35,8 @@ export default function Impact() {
             
             </p>
         </div>
-    );
+        );
+    }
 }
+
+export default Impact;

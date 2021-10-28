@@ -12,6 +12,8 @@ export default function Footer() {
             <img className="social-icons" src="/facebook.svg" alt="facebook" />
             <img className="social-icons-disc" src="/discord.svg" alt="twitter" />Join our Discord Community
             <img className="social-icons-med" src="/medium.svg" alt="twitter" /> Stay informed with MUNner's Daily
+            <div className="copyright">© MEC MUNSoC 2021</div>
+            
         </footer>
         </div>
     );
