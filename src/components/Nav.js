@@ -1,20 +1,24 @@
-import React from "react";
+import React, {Component} from "react";
 import '../styles/Nav.css';
 
-export default function Nav() {
-    return (
-        <nav className="nav">
+class Nav extends Component {
+    render() {
+        return (
+            <nav className="nav">
         <ul className="nav">
-        <li className="nav-home">MEC MUNSoC</li>
+        <li className="nav-home"><a href="/">MEC MUNSoC</a></li>
         <li className="nav-item"></li>
         {/* Link to Team
         Link to Impact
         Link to Contact */}
-        <li className="nav-item">About Us</li>
-        <li className="nav-item">Impact</li>
-        <li className="nav-item">Team</li>
-        <li className="nav-item">Contact</li>
+        <li className="nav-item"><a href="/#About">About Us</a></li>
+        <li className="nav-item"><a href="/#Impact">Impact</a></li>
+        <li className="nav-item"><a href="/#Team">Team</a></li>
+        <li className="nav-item"><a href="/#Contact">Contact</a></li>
         </ul>
     </nav>
-    );
+        );
+    }
 }
+
+export default Nav;

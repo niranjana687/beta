@@ -1,19 +1,48 @@
-.profile-image {
+.profile-gallery {
+    float: left;
+    width: 180px;
+    margin: 50px;
+    padding-left: 50px;
+}
+
+.profile-gallery img {
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     float: left;
-    padding: 10px;
-    width: 10%;
+    /* padding-left: 5px; */
+   border-color: brown;
+   border-style: solid;
+   
+   
+}
+.profile-desc {
+    float: left;
+    padding: 15px;
+    padding-top: 20px;
+    padding-left: 65px;
+    
 } 
+
+.profile-desc-pos {
+    float: left;
+    padding: 15px;
+    padding-top: 2px;
+    padding-left: 63px;
+    color: brown;
+}
 
 
 
 .footer{
-    background-color: brown;
-    /* padding: 3px; */
-    color: antiquewhite;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
+    clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: -200px;
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.1);
+  background-color: #a52a2a;
+  bottom: 0;
+  
 }
 .footer-logo {
     max-width: 100px;
@@ -22,7 +51,6 @@
 
 .about-us {
     text-align: justify;
-    /* padding-left:25px */
 }
 
 .main-pic{
