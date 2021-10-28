@@ -1,22 +1,43 @@
 .about-us {
     text-align: justify;
-    padding-left:25px
+    /* padding-left:25px */
 }
 
 .main-pic{
-    width: fit-content;
+    max-width: 1440px;
+    max-height: 726px;
+    size-adjust: inherit;
 }
 
 .logo {
     float: left;
-    width: 248px;
-    height: 235px;
-    padding-right: 10px;
+    max-width: 235px;
+    max-height: 248px;
+    padding-right: 50px;
     position:calc();
+    padding-left: 150px;
 }
 
 .main-pic-desc {
     position: absolute;
-    bottom: 8px;
+    bottom: 300px;
     left: 16px;
+    color: antiquewhite;
+    font-size:  50px;
+    padding-left: 30px;
+}
+
+.about-us-desc {
+    padding-left: 5%;
+    padding-right: 10%;
+    font-size: 22px;
+}
+
+h3 {
+    padding-bottom: 20px;
+    padding-top: 30px;
+    font-size: 25px;
+    color: brown;
+    font-weight: lighter;
+
 }

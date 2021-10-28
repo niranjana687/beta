@@ -2,21 +2,64 @@
     border-radius: 50%;
     float: left;
     padding: 10px;
-    width: 25%;
+    width: 10%;
 } 
 
 
 
 .footer{
     background-color: brown;
-    padding: 3px;
+    /* padding: 3px; */
     color: antiquewhite;
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
 }
 .footer-logo {
-
     max-width: 100px;
     
+}
+
+.about-us {
+    text-align: justify;
+    /* padding-left:25px */
+}
+
+.main-pic{
+    max-width: 1440px;
+    max-height: 726px;
+    size-adjust: inherit;
+}
+
+.logo {
+    float: left;
+    max-width: 235px;
+    max-height: 248px;
+    padding-right: 50px;
+    position:calc();
+    padding-left: 150px;
+}
+
+.main-pic-desc {
+    position: absolute;
+    bottom: 300px;
+    left: 16px;
+    color: antiquewhite;
+    font-size:  50px;
+    padding-left: 30px;
+}
+
+.about-us-desc {
+    padding-left: 5%;
+    padding-right: 10%;
+    font-size: 22px;
+}
+
+h3 {
+    padding-bottom: 20px;
+    padding-top: 30px;
+    font-size: 25px;
+    color: brown;
+    font-weight: lighter;
+
 }
