@@ -4,16 +4,33 @@
     margin-top: 0%;
     display: block;
     height: 78px;
+    
 }
 
 .nav-home {
     display: inline-flex;
     font-size: large;
-   padding-right: 5in;
+    padding-right: 5in;
 }
 
 .nav-item {
     list-style: none;
     padding-left: 3.5em;
     display: inline-block;
+}
+
+NavLink {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+a hover {
+    color: white;
+}
+a {
+    color: white;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    padding-top: 25px;
+    padding-left: 65px;
 }

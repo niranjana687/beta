@@ -1,30 +1,27 @@
-import React, {Component} from "react";
+import React from "react";
 import '../styles/Nav.css';
 import Home from "./Home";
 import About from "./About";
 import Impact from "./Impact";
 import Team from "./Team";
-import {Route, NavLink, HashRouter} from "react-router-dom";
 
-class Nav extends Component {
-    render() {
-        return (
-           <HashRouter>
-                <nav className="nav">
+
+
+export default function Nav() {
+    return ( 
+        <nav className="nav">
         <ul className="nav">
-        <li className="nav-home"><NavLink to="/">MEC MUNSoC</NavLink></li>
+        
+        <li className="nav-home"><a href="/#">MEC MUNSoC</a></li>
         <li className="nav-item"></li>
-        {/* Link to Team
-        Link to Impact
-        Link to Contact */}
-        <li className="nav-item"><NavLink to="/about">About Us</NavLink></li>
-        <li className="nav-item"><NavLink to="/impact">Impact</NavLink></li>
-        <li className="nav-item">Team</li>
+        {/* a href Team
+        a href Impact
+        a href Contact */}
+        <li className="nav-item"><a href="/#about">About Us</a></li>
+        <li className="nav-item"><a href="/#impact">Impact</a></li>
+        
+        <li className="nav-item"><a href="/team">Team</a></li>
         </ul>
     </nav>
-           </HashRouter>
-        );
-    }
-}
-
-export default Nav;
+    ); 
+};
